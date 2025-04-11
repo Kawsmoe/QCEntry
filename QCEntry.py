@@ -65,11 +65,11 @@ qcdata = {
 
 #st.write(f'qcdata: {qcdata}')
 
-qcdatajson = 'qcdata.json'
+#qcdatajson = 'qcdata.json'
 
-with open(qcdatajson,'w') as file:
-    json.dump(qcdata,file,indent=4)
+#with open(qcdatajson,'w') as file:
+    #json.dump(qcdata,file,indent=4)
 
-with st.container(border=True):
-    if st.button("Save"):
-        qcdatajson.append(new_entry)
+#with st.container(border=True):
+   # if st.button("Save"):
+      #  qcdatajson.append(new_entry)
